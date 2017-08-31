@@ -20,4 +20,4 @@ taxas = soup.find_all('td', {'colspan':'7'})
 for taxa in taxas:
 	print(taxa.getText())
 
-print("DONE")
+#print("DONE")
